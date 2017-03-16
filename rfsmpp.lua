@@ -37,16 +37,13 @@
 -- Various pretty printing functions to make life easier
 --
 
-require("ansicolors")
-require("utils")
-require("rfsm")
+local ac    = require("ansicolors")
+local utils = require("utils")
+local rfsm  = require("rfsm")
 
 local unpack, print, type, pairs, assert = unpack, print, type, pairs, assert
 local table = table
-local utils = utils
 local string = string
-local ac = ansicolors
-local rfsm = rfsm
 
 -- some shortcuts
 local is_meta = rfsm.is_meta
