@@ -34,7 +34,7 @@
 -- SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --
 
-require ('utils')
+local utils = require ('utils')
 
 local table = table
 local io = io
@@ -54,7 +54,6 @@ local setmetatable = setmetatable
 local getmetatable = getmetatable
 local unpack = unpack
 local error = error
-local utils = utils
 
 module("rfsm")
 
